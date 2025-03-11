@@ -69,8 +69,8 @@ function getAssignmentMark(student,course,num){
         return record.grades[num];
       }
     }
-  return -1;
   }
+  return -1;
 }
 
 function averageAssessment(students, courseName, assignment){
